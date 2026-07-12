@@ -49,7 +49,7 @@
         return '💅 Estos son nuestros servicios (los precios son referenciales):\n\n' + list + '\n\n¿Te gustaría reservar una cita?';
       },
       hours: '🕐 Nuestro horario:\n\n' + KNOWLEDGE.hours.es + '\n\n¿Necesitas algo más?',
-      location: '📍 Estamos en:\n\n' + KNOWLEDGE.location.es + '\n\n<a href="https://www.google.com/maps/search/?api=1&query=34608" target="_blank" rel="noopener">Ver en Google Maps →</a>',
+      location: '📍 Estamos en la zona de:\n\n' + KNOWLEDGE.location.es + '\n\n<a href="https://www.google.com/maps/search/?api=1&query=34608" target="_blank" rel="noopener">Ver zona en Google Maps →</a>\n\nPara darte la dirección exacta, primero agenda tu cita 📅:\n\n<a href="https://wa.me/' + PHONE + '?text=%C2%A1Hola%20China%20Nails!%20Quiero%20reservar%20una%20cita%20%F0%9F%92%85" target="_blank" rel="noopener">Reservar por WhatsApp →</a>',
       contact: '📞 Datos de contacto:\n\n' + KNOWLEDGE.contact.es,
       booking: '📅 ¡Genial! Para reservar tu cita puedes:\n\n• <a href="https://wa.me/' + PHONE + '?text=%C2%A1Hola%20China%20Nails!%20Quiero%20reservar%20una%20cita%20%F0%9F%92%85" target="_blank" rel="noopener">Escribirnos por WhatsApp →</a>\n• <a href="tel:+1' + PHONE + '">Llamar al (813) 439-4239 →</a>\n\n¡Te esperamos!',
       price: function () {
@@ -73,7 +73,7 @@
         return '💅 Here are our services (prices are approximate):\n\n' + list + '\n\nWould you like to book an appointment?';
       },
       hours: '🕐 Our hours:\n\n' + KNOWLEDGE.hours.en + '\n\nAnything else I can help with?',
-      location: '📍 We\'re located at:\n\n' + KNOWLEDGE.location.en + '\n\n<a href="https://www.google.com/maps/search/?api=1&query=34608" target="_blank" rel="noopener">View on Google Maps →</a>',
+      location: '📍 We\'re located in the:\n\n' + KNOWLEDGE.location.en + ' area\n\n<a href="https://www.google.com/maps/search/?api=1&query=34608" target="_blank" rel="noopener">View area on Google Maps →</a>\n\nTo get the exact address, please book your appointment first 📅:\n\n<a href="https://wa.me/' + PHONE + '?text=Hi%20China%20Nails!%20I\'d%20like%20to%20book%20an%20appointment%20%F0%9F%92%85" target="_blank" rel="noopener">Book on WhatsApp →</a>',
       contact: '📞 Contact info:\n\n' + KNOWLEDGE.contact.en,
       booking: '📅 Great! To book your appointment:\n\n• <a href="https://wa.me/' + PHONE + '?text=Hi%20China%20Nails!%20I\'d%20like%20to%20book%20an%20appointment%20%F0%9F%92%85" target="_blank" rel="noopener">Message us on WhatsApp →</a>\n• <a href="tel:+1' + PHONE + '">Call (813) 439-4239 →</a>\n\nWe look forward to seeing you!',
       price: function () {
